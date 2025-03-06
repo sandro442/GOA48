@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle"></div>
+        <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #c74f55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #c74f55;
+    padding: 20px;
+  }
+  .rectangle{
+    background-color: #FDFFE9;
+    width: 80px;
+    height: 220px;
+  }
+  .circles {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .circle{
+    background-color: #f9f8e6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px
+  }
+
+</style>
+
+</body>
+</html>
